@@ -43,17 +43,6 @@ GET /wp-json/wp-api-bright/v1/get-all
 ]
 
 ```
-## Get single data
-GET /wp-json/wp-api-bright/v1/get/1
-
-## Create a post
-POST /wp-json/wp-api-bright/v1/create
-
-## Update post
-PUT /wp-json/wp-api-bright/v1/update/1
-
-## Delete post
-DELETE /wp-json/wp-api-bright/v1/delete/1
 
 Ensure Permalinks are set to Post name in WordPress settings (Settings → Permalinks).
 Use an API testing tool like Postman or cURL to test the endpoints.
